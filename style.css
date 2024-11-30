@@ -23,10 +23,9 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 4.8rem;
     position: fixed;
+    padding-left: 4.8rem;
     z-index: 10;
-
 }
 
 .content .logo img {
@@ -163,4 +162,222 @@ html {
 
 .secondSection .main .textbox h3 {
     font-size: 1.6rem;
+}
+
+.thirdSection {
+    background-color: #1a1a1a;
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    top: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdSection .imageClip {
+    display: flex;
+    width: auto;
+    height: 400px;
+}
+
+.thirdSection .imageClip img {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.thirdSection .imageClip .img1 {
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+
+.thirdSection .imageClip .img2 {
+    position: relative;
+    top: 25px;
+    left: -30px;
+}
+
+.thirdSection .text {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.thirdSection .text h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.thirdSection .text p {
+    font-size: 1rem;
+}
+
+.fourthSection {
+    background-color: #1a1a1a;
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    top: 1720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.fourthSection .principalText {
+    width: 100vw;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+}
+
+.fourthSection .cards {
+    display: flex;
+    width: 70%;
+    padding-top: 40px;
+}
+
+.fourthSection .cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.fourthSection .cards div i {
+    font-size: 3rem;
+    color: #1c4c74;
+}
+
+.fourthSection .cards div h3 {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.fourthSection .cards div p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+.fourthSection .graphics {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.graphics .textGraphics {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 2rem;
+}
+
+.graphics .textGraphics h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.graphics .textGraphics p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.progress-container {
+    width: 45%;
+}
+
+.progress-container p {
+    color: white;
+    font-weight: 900;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.progress-container .progress-bar {
+    background-color: #000000;
+    border-radius: 2px;
+    overflow: hidden;
+    height: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.progress-container .progress-bar .progress {
+    background-color: #1c4c74;
+    height: 100%;
+    border-radius: 2px 0 0 2px;
+    width: 0%;
+    transition: width 1.5s ease;
+}
+
+.contatosft {
+    background-image: linear-gradient(to top, rgba(26, 26, 26, 1), rgba(28, 76, 116, 0.8)), url(./img/footer.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    position: relative;
+    top: 1720px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(51% 9%, 74% 6%, 100% 14%, 100% 100%, 0 100%, 0 16%, 16% 3%);
+}
+
+
+.contatosft .footerprincipal {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contatosft .footerprincipal div{
+    width: 25%;
+}
+
+.contatosft .footerlogo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.contatosft .footerlogo img {
+    width: 155px;
+    height: auto;
+    cursor: pointer;
+}
+
+.contatosft .footermenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.contatosft .footercontatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.contatosft .footerhorario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
 }
